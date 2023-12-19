@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Coming Soon", cursive;
+}
+.container {
+  border: 16px solid #1d1e4c;
+  background-color: rgb(231, 239, 245);
+  min-height: 100vh;
+}
+
+.content {
+  margin: 0 auto;
+  width: 900px;
+}
+.head {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+img {
+  width: 341px;
+  height: 392px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.headcontent h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+}
+.headcontent h4 {
+  text-align: end;
+  font-size: 25px;
+}
+.about > h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 85px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.biocontent {
+  margin-top: 12px;
+  font-size: 17px;
+  letter-spacing: 1.2px;
+  line-height: 22px;
+  word-spacing: 2px;
+  text-align: justify;
+}
+
+.biography {
+  font-size: 33px;
+  margin-top: 24px;
+}
+.list {
+  margin-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 25px;
+}
+
+.footer {
+  font-weight: bolder;
+  text-align: end;
+  font-size: 18px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.footer a {
+  text-decoration: none;
+}

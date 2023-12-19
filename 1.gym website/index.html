@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GYM WEBSITE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- CSS reset -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      margin: 0px;
+      padding: 0px;
+      background: url('/IMG/anastase-maragos-9dzWZQWZMdE-unsplash.jpg')no-repeat center center /cover;
+      /* background: url('/IMG/anastase-maragos-9dzWZQWZMdE-unsplash.jpg')no-repeat center center /cover; */
+/* "short hand " */
+      display: block;
+      color: antiquewhite;
+    }
+
+
+    .left {
+      display: inline-block;
+      position: absolute;
+      left: 42px;
+      top: 25px;
+      margin: auto;
+    }
+
+    .mid {
+      display: block;
+      margin: 27px auto;
+      width: 38%;
+    }
+
+
+    .right {
+      /* by use of of the position  tag we dont need to use the float tag and it is the better practice  */
+      position: absolute;
+      right: 42px;
+      top: 34px;
+      display: inline-block;
+    }
+
+    .navbar {
+      display: inline-block;
+    }
+
+    .navbar li {
+      list-style: none;
+      display: inline-block;
+      font-size: 15px;
+
+    }
+
+    .navbar li a {
+
+      text-decoration: none;
+      margin: 1px 2px;
+      padding: 15px 12px;
+      color: aliceblue;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      /* text-decoration: underline; */
+
+      color: #706666;
+    }
+
+
+    .left img {
+      position: relative;
+      left: 37px;
+      width: 75px;
+      filter: invert(100%);
+      /* filter: invert(100%); */
+
+
+    }
+
+    .left div {
+      text-align: center;
+      font-size: 24px;
+      line-height: 19px;
+
+
+    }
+
+    .button {
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      background-color: black;
+      color: antiquewhite;
+      padding: 8px 18px;
+      border-radius: 10px;
+      margin: 0px 8px;
+      font-size: 16px;
+      cursor: pointer;
+            /* cursor: pointer; */
+      
+
+    }
+
+    .button:hover {
+      color: rgb(234, 210, 210);
+      background-color: rgb(70, 57, 57);
+    }
+
+
+    .container {
+      border: 2px white solid;
+      border-radius: 28px;
+      margin: 8% 37px;
+      /* bda he imp step tha  */
+      padding: 25px 14px;
+      width: 39%;
+    }
+
+    .btn {
+      width: 179px;
+      margin: 19px 174px;
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+      border: 2px white solid;
+    }
+
+    .btn:hover {
+      background-color: rgb(72, 69, 69);
+    }
+
+    .form h1 {
+      text-align: center center;
+      color: antiquewhite;
+      font-size: 2em;
+
+    }
+
+    .formgrp input {
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      width: 96%;
+      margin: 2px 1px;
+      padding: 0px 2px;
+      border: 2px white solid;
+      border-radius: 10px;
+}
+
+    .reset {
+      display: block;
+      width: 179px;
+      margin: auto;
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+      border: 2px white solid;
+    }
+
+
+
+
+    .reset:hover {
+      background-color: rgb(72, 69, 69);
+    }
+  </style>
+  </head>
+
+  <body>
+  <div>
+  <header>
+  <!-- Left for the logo  -->
+  <div class="left">
+  <img src="IMG/download.png" alt="this is logo">
+  <div> MAYANK GYM</div>
+  </div>
+  <!-- Mid for the navigation -->
+  <div class="mid">
+  <nav class="navbar">
+  <ul>
+  <li><a href="#" class="active">Home </a></li>
+  <li><a href="#">About </a></li>
+  <li><a href="#">Contact us </a></li>
+  <li><a href="#">Fee Details </a></li>
+  </ul>
+  </nav>
+  </div>
+    <!-- right for the other -->
+
+    <div class="right">
+    <button class="button">
+    Call Now
+    </button>
+    <button class="button">
+    Join now
+    </button>
+    </div>
+    </header>
+    <div class="container">
+    <div class="form">
+    <h1> Join the best Gym of Khurja now!</h1>
+    <form action="nobackend.php">
+    <div class="formgrp">
+      <!-- <label for="name">  Enter name :</label> -->
+    <input type="text" placeholder="Enter your name ">
+    </div>
+    <div class="formgrp">
+    <input type="text" placeholder="Enter your Age ">
+    </div>
+    <div class="formgrp">
+    <input type="text" placeholder="Enter your Gender">
+    </div>
+
+    <div class="formgrp">
+    <input type="text" placeholder=" Enter your Phone number ">
+    </div>
+    </div>
+    <div class="formgrp">
+    <input type="text" placeholder="Enter your Email ID">
+    </div>
+
+    <div class="formgrp">
+    <input type="text" placeholder="Enter your Adress">
+    </div>
+    <Button class="btn">Submit</Button>
+    <input type="Reset" class="reset">
+    </div>
+    </div>
+
+
+    </form>
+
+
+    </div>
+    </div>
+    </body>
+    </body>
+
+    </html>

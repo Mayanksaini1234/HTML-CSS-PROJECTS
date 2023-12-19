@@ -1,0 +1,67 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1.1px;
+  line-height: 20px;
+  word-spacing: 1.1px;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  /* vvip step , due to it the text take the whole the container thats why when we use the text align center it got centered ,,otherwiose its not..... */
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.bgcolortext {
+  background-color: #313534;
+  padding: 15px;
+  color: aqua;
+}
+.image1 {
+  background-image: url(images/image1.png);
+  min-height: 100%;
+}
+.image2 {
+  background-image: url(images/image2.png);
+  min-height: 500px;
+}
+.image3 {
+  background-image: url(images/image3.png);
+  min-height: 500px;
+}
+.image4 {
+  background-image: url(images/image4.jpg);
+  min-height: 100%;
+}
+.image1,
+.image2,
+.image3,
+.image4 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* main property for the parallax  */
+}
+.section {
+  padding: 20px 50px;
+  text-align: center;
+}
+.section h1 {
+  font-size: 30px;
+  padding: 10px;
+}
+.sectionlight {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.sectiondark {
+  background-color: #313534;
+  color: aqua;
+}
