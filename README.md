@@ -16,7 +16,8 @@ Welcome to the Web Projects repository! This repository contains a collection of
 | 4. | JOB Application website | [Link](https://github.com/Mayanksaini1234/HTML-CSS-Practice-PROJECTS/tree/master/4.Job%20application) |[JOB](https://mayank-job-application.netlify.app/) |
 | 5. | Parallax website | [Link](https://github.com/Mayanksaini1234/HTML-CSS-Practice-PROJECTS/tree/master/5.Parallax%20website) |[Parallax](https://mayank-parallax-website.netlify.app/) |
 | 6. | Landing Page | [Link](https://github.com/Mayanksaini1234/HTML-CSS-Practice-PROJECTS/tree/master/6..Landing%20page) |[Landing](https://mayank-landing-page.netlify.app/) |
-
+| 7. | Restaurant Website | [Link](https://github.com/Mayanksaini1234/HTML-CSS-Practice-PROJECTS/tree/master/7.Restaurant%20Website) |[Restaurant](https://mayank-restaurant.netlify.app/) |
+| 8. |Documentation Website | [Link](https://github.com/Mayanksaini1234/HTML-CSS-Practice-PROJECTS/tree/master/8.JS%20docs) |[Documentation](https://mayank-js.netlify.app/) |
 
 
 ## Contributions
