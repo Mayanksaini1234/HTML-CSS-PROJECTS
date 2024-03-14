@@ -1,4 +1,4 @@
-# HTML CSS  Practice Projects
+# HTML CSS Projects
 
 Welcome to the Web Projects repository! This repository contains a collection of  HTML and CSS practice projects  that I practiced from scratch .
 
