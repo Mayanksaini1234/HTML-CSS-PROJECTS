@@ -1,10 +1,9 @@
 # HTML CSS  Practice Projects
 
-Welcome to the Web Projects repository! This repository contains a collection of  HTML and CSS practice projects . It serves as a fantastic resource...
+Welcome to the Web Projects repository! This repository contains a collection of  HTML and CSS practice projects  that I practiced from scratch .
 
 ## Features
 - Built with HTML, CSS purely.
-- Provides hands-on learning opportunities
 - Each project focuses on a specific  designing and functionallity.
 
 ## Table of Projects
@@ -19,13 +18,3 @@ Welcome to the Web Projects repository! This repository contains a collection of
 | 7. | Restaurant Website | [Link](https://github.com/Mayanksaini1234/HTML-CSS-Practice-PROJECTS/tree/master/7.Restaurant%20Website) |[Restaurant](https://mayank-restaurant.netlify.app/) |
 | 8. |Documentation Website | [Link](https://github.com/Mayanksaini1234/HTML-CSS-Practice-PROJECTS/tree/master/8.JS%20docs) |[Documentation](https://mayank-js.netlify.app/) |
 
-
-## Contributions
-
-Contributions to this calculator project are welcome. If you would like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your contribution.
-3. Make your changes and ensure that the tests pass.
-4. Commit your changes and push them to your fork.
-5. Submit a pull request, explaining the changes you have made.
